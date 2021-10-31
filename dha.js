@@ -814,7 +814,7 @@ function banChat() {
 
                buttonsMessage = {
                contentText: `${txtt}`,
-               footerText: 'Jangan Sungkan Chat Ya Kak',
+               footerText: 'Jangan Sungkan Chat Ya Kak :D',
                buttons: buttons,
                headerType: 1
 }
@@ -837,7 +837,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
         case 'menu':
         case 'help':
-        menu =`Hai Kak.....\n*${pushname}*\n\`\`\`Saya Sherlynn-Botz,SENANG BISA BERTEMU DENGANMU HARI INI\`\`\`
+        menu =`Hai Kak.....\n*${pushname}*\n\`\`\`Saya Sherlynn Botz,SENANG BISA BERTEMU DENGANMU HARI INI\`\`\`
         
 𝗜𝗡𝗙𝗢 𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔 𝗕𝗢𝗧
 ❏ NAMA : *${pushname}*
@@ -846,7 +846,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 ❏ LIMIT : *${isPremium ? 'Unlimited' : `${gcount}`}*
 
 𝗜𝗡𝗙𝗢 𝗕𝗢𝗧
-❏ NAMA : *Sherlynn-Botz*
+❏ NAMA : *Sherlynn Botz*
 ❏ API : @62881037046507
 ❏ OWNER : *©Yudipermana*
 ❏ API : *@62881037046507*
@@ -1139,14 +1139,14 @@ Makernya banyak tu kalian masukan aja namanya sendiri
                     rows: [
                        {
                         title: `${listmenuu[startnum++]}`,
-                        description: `\n\n\n\n\`\`\`JAN LUPA SUBSCRIBE KURRXD\`\`\``,
+                        description: `\n\n\n\n\`\`\`Jan lupa follow ig owner ya yudipermana.1\`\`\``,
                         rowId: `${prefix}${x}`
                       }
                     ]
                    }
                         list.push(yy)
            }
-               listmsg(from, `${ucapanWaktu}`,   `Hai kak.....\n*${pushname}*\nJangan Lupa Subscribe KurrXd Yahh`, list)
+               listmsg(from, `${ucapanWaktu}`,   `Hai kak.....\n*${pushname}*\n owner yudi 62881037046507`, list)
                break
 //------------------< Game >------------------- 
         case 'limitgame': 
