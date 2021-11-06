@@ -36,8 +36,8 @@ const qrcodes = require('qrcode');
 const imgbb = require('imgbb-uploader');
 const os = require('os');
 const { virtex, vipi } = require('./lib/virtex.js')
-const Mfake = fs.readFileSync ('./media/ganteng.jpg')
-const Mthumb = fs.readFileSync('./media/ganteng.jpg')
+const Mfake = fs.readFileSync ('./media/ali.jpg')
+const Mthumb = fs.readFileSync('./media/ali.jpg')
 const timeWib = moment.tz('Asia/Jakarta').format('DD/MM')
 		
 // stickwm
@@ -75,8 +75,8 @@ let setiker = JSON.parse(fs.readFileSync('./temp/stik.json'))
 let imagenye = JSON.parse(fs.readFileSync('./temp/image.json'))
 let videonye = JSON.parse(fs.readFileSync('./temp/video.json'))
 let audionye = JSON.parse(fs.readFileSync('./temp/vn.json'))
-let fakeimage = fs.readFileSync("./media/ganteng.jpg")
-let errorImg = 'https://i.ibb.co/FBm52Pt/1e0fe6a08b67.jpg'
+let fakeimage = fs.readFileSync("./media/ali.jpg")
+let errorImg = 'https://i.ibb.co/9nTg3zR/388bbbaf102d.jpg'
 let setting = JSON.parse(fs.readFileSync('./setting.json'))
 
 owner = setting.owner
